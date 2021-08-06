@@ -1,0 +1,202 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+.dude {
+    display:block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dudeded {
+    display:block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#resume1 {
+    width:700px; 
+}
+
+#resume2 {
+    width:600px;
+    margin-bottom: 20px;
+}
+
+.fa-gamepad {
+    font-size: 60px;
+    color: #F6BD60;
+    vertical-align: middle;
+}
+
+.fa-clipboard {
+    font-size: 60px;
+    color: #F6BD60;
+    vertical-align: middle;
+}
+
+.fa-briefcase {
+    font-size: 60px;
+    color: #F6BD60;
+    vertical-align: middle;
+}
+
+.columns {
+    display:inline-block;
+    width: 300px;
+    text-align: center;
+    border:solid 0.5px;
+    padding:0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #54577C; 
+    padding: 5px;
+    margin: 0;
+}
+
+p:last-child {
+    margin: 0 0 10px 0;
+}
+
+.mini-header-inator {
+    font-size: 25px;
+    color: #3B3561;
+    padding: 3px;
+    margin: 0;
+}
+
+.container-inator {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav {
+    font-size: 14px;
+    font-family: georgia;
+    text-align: center;
+}
+.navbar {
+    width: 200px;
+    border: solid 1px;
+    padding: 10px 0;
+    background: #fff;
+    display:inline-block;
+    margin: 0 auto;
+    text-decoration: none;
+ }
+
+.downlink {
+    border: solid 1px;
+    font-size: 20px;
+    color:blue;
+    padding: 8px 3px;
+    text-decoration: none;
+}
+
+a {
+    color: #54577C;
+
+}
+
+a:hover{
+    color:#813405;
+    text-decoration: underline;
+}
+
+a:first-child div {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+#chosen {
+    color:#FE5F55;
+}
+
+a:first-child:hover {
+    color:#813405;
+}
+
+a:last-child div {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.circle-inator {
+    border-radius: 50%;
+    display: block;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 300px;
+  }
+
+.super-heading {
+    font-size: 45px;
+    text-align: center;
+    color:#3B3561;
+    margin: 0 0;
+}
+
+.kinda-heading {
+    font-size: 30px;
+    text-align: center;
+    color: #54577C;
+    margin: 10px 150px;
+}
+
+ul {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], [type=email], textarea  {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color:#F6BD60;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #dfa343;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+    width: 50vw;
+    background-color:#f2f2f2;
+    margin: 20px auto;
+    border: solid 1px;
+    border-color:#54577C;
+  }
